@@ -22,7 +22,7 @@ int wordCount = 0;
 int main() 
 {
 	for (int a = 0; a < MAXWORDS; a++) //Cycle through word counter array and ensure they all are set to 0 instead of garbage data
-		numOfWords[a] == 0;
+		numOfWords[a] = 0;
 
 	char ch;
 	char curWord [WORDLENGTH];
